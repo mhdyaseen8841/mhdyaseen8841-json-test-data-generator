@@ -1,0 +1,25 @@
+{
+  "name": "json-mock-generator",
+  "version": "1.0.0",
+  "description": "A package to generate mock JSON data based on your schema",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "json-mock-generator": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "yargs": "^17.7.2"
+  },
+  "license": "MIT",
+  "author": "Mohammed Yaseen",
+  "keywords": ["json", "mock" ,"dummy", "data","testdata", "generator", "schema"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhdyaseen8841/mhdyaseen8841-json-test-data-generator.git"
+  }
+}
